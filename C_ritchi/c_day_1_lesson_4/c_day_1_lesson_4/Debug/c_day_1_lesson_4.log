@@ -1,0 +1,6 @@
+﻿  Source.cpp
+d:\code\cpplearn\c_ritchi\c_day_1_lesson_4\c_day_1_lesson_4\source.cpp(10): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "int *"
+d:\code\cpplearn\c_ritchi\c_day_1_lesson_4\c_day_1_lesson_4\source.cpp(5): warning C4101: nother: неиспользованная локальная переменная
+d:\code\cpplearn\c_ritchi\c_day_1_lesson_4\c_day_1_lesson_4\source.cpp(5): warning C4101: nwhite: неиспользованная локальная переменная
+d:\code\cpplearn\c_ritchi\c_day_1_lesson_4\c_day_1_lesson_4\source.cpp(5): warning C4101: c: неиспользованная локальная переменная
+  c_day_1_lesson_4.vcxproj -> D:\Code\CppLearn\C_ritchi\c_day_1_lesson_4\Debug\c_day_1_lesson_4.exe
