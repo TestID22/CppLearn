@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//программа с использованием массива
 int main()
 {
 	int c, i, nwhite, nother;
