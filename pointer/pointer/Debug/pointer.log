@@ -1,0 +1,3 @@
+﻿  pointer.cpp
+d:\code\cpplearn\pointer\pointer\pointer.cpp(16): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "char *"
+  pointer.vcxproj -> D:\Code\CppLearn\pointer\Debug\pointer.exe
