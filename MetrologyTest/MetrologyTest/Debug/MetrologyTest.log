@@ -1,0 +1,3 @@
+﻿  Source.cpp
+d:\projects\c\metrologytest\metrologytest\source.cpp(29): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  MetrologyTest.vcxproj -> D:\Projects\C\MetrologyTest\Debug\MetrologyTest.exe
