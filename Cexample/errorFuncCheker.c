@@ -3,7 +3,7 @@
 #include <string.h>
 #include <locale.h>
 
-void *error_checker(int meme_size){
+void *error_checker(unsigned meme_size){
     void *pointer;
     pointer = malloc(meme_size);
     if(pointer == NULL){

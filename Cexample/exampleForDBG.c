@@ -7,14 +7,6 @@ int main(){
     int c;
     for(i = 0; i < 10; i++){
         printf("Hello, world");
-        //вставка кода ассемблера Компилируется в Visual Studio
-        __asm{
-            mov eax, a
-            mov ebx, b
-            add eax, ebx
-            mov c, eax
-        }
-        printf("%d", c);
     }
     return 0;
 }

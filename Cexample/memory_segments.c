@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <Windows.h>
+#include <locale.h>
 //сегментация памяти в Cи text, data, bss, stack, heap.
 //text - храниться код без доступа к перезаписи.
 //data - инициализированные переменные.
@@ -16,17 +17,17 @@ void function(){
 }
 
 int main(){
-
+    system("cls");
     int stack_var; //stack
     static int static_init_var = 5; // data
     static int static_var;          // bss
     int *heap_var_ptr;
 
     heap_var_ptr = (int *)malloc(4); //heap
-    system("color 4");
+    system("color 2");
 
-    printf("\n\nDATA segment\n");
-    printf("-----------------------------------------\n");
+    printf("\n\nDATA segment Сегмент\n");
+    printf("-----------------Привет мир------------------------\n");
     printf("global_init_var on adress 0x%08x\n", &global_init_var);
     printf("static_init_var on adress 0x%08x\n",&static_init_var);
     printf("-----------------------------------------\n\n\n");
